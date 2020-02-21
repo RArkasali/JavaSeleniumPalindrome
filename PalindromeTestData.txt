@@ -1,0 +1,33 @@
+TestcaseId	IsRun	DateRun	Result	Error	KeywordName	String
+PalindromeChecker_1	y				isPalindrome	abcba
+PalindromeChecker_2	y				isPalindrome	aabaacaabaa
+PalindromeChecker_3	y				isPalindrome	abba
+PalindromeChecker_4	y				isPalindrome	mom
+PalindromeChecker_5	y				isPalindrome	dennis sinned
+PalindromeChecker_6	y				isPalindrome	palindrome
+PalindromeChecker_7	y				isPalindrome	racecars
+PalindromeChecker_8	y				isPalindrome	wombat
+PalindromeChecker_9	y				isPalindrome	namste
+PalindromeChecker_10	y				isPalindrome	m@dam!
+PalindromeChecker_11	y				isPalindrome	"A man, a plan, a canal, Panama"
+PalindromeChecker_12	y				isPalindrome	RaCe cAr
+PalindromeChecker_13	y				isPalindrome	A Toyota's a Toyota
+PalindromeChecker_14	y				isPalindrome	abracadabra
+PalindromeChecker_15	y				isPalindrome	énggne
+PalindromeChecker_16	y				isPalindrome	"Madam, I'm Adam!"
+PalindromeChecker_17	y				isPalindrome	"Madam, I am Adam!"
+PalindromeChecker_18	y				isPalindrome	0_0 (: /-\ :) 0-0
+PalindromeChecker_19	y				isPalindrome	eyeforofeye
+PalindromeChecker_20	y				isPalindrome	1 & lol * eye eye * lol & 1
+PalindromeChecker_21	y				isPalindrome	"A man, a plan, a canal. Panama"
+PalindromeChecker_22	y				isPalindrome	a!4@6#n$9%d%9$n#9@4!a
+PalindromeChecker_23	y				isPalindrome	ingirumimusnocteetconsumimurigni
+PalindromeChecker_24	y				isPalindrome	salàlas
+PalindromeChecker_25	y				isPalindrome	^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v
+PalindromeChecker_26	y				isPalindrome	^_v   ^_v   ^_v   ^_v   ^_v   ^_v   ^_
+PalindromeChecker_27	y				isPalindrome	09g8p09g1+09pv
+PalindromeChecker_28	y				isPalindrome	In girum imus nocte et consumimur igni
+PalindromeChecker_29	y				isPalindrome	salÃ las
+PalindromeChecker_30	y				isPalindrome	Never odd or even
+PalindromeChecker_31	y				isPalindrome	"A man, a plan, a canal; Panama!"
+PalindromeChecker_32	y				isPalindrome	"Ce repère, Perec"

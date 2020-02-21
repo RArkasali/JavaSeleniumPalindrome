@@ -1,0 +1,155 @@
+Microsoft Windows [Version 10.0.18363.592]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>mvn package -DskipTests=false
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.085 s
+[INFO] Finished at: 2020-02-20T18:33:02+07:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (C:\Windows\System32). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+
+C:\Windows\System32>cd\
+
+C:\>cd C:\Users\hieptc\Working\TheInternet
+
+C:\Users\hieptc\Working\TheInternet>mvn package -DskipTests=false
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ----------------------< org.example:TheInternet >-----------------------
+[INFO] Building TheInternet 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar (66 MB at 247 kB/s)
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ TheInternet ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.5:compile (default-compile) @ TheInternet ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 6 source files to C:\Users\hieptc\Working\TheInternet\target\classes
+[INFO] /C:/Users/hieptc/Working/TheInternet/src/main/java/PageCommon.java: C:\Users\hieptc\Working\TheInternet\src\main\java\PageCommon.java uses or overrides a deprecated API.
+[INFO] /C:/Users/hieptc/Working/TheInternet/src/main/java/PageCommon.java: Recompile with -Xlint:deprecation for details.
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ TheInternet ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\hieptc\Working\TheInternet\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.5:testCompile (default-testCompile) @ TheInternet ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to C:\Users\hieptc\Working\TheInternet\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ TheInternet ---
+[INFO] Surefire report directory: C:\Users\hieptc\Working\TheInternet\target\surefire-reports
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng/2.12.4/surefire-testng-2.12.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng/2.12.4/surefire-testng-2.12.4.pom (3.6 kB at 8.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.12.4/surefire-providers-2.12.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.12.4/surefire-providers-2.12.4.pom (2.3 kB at 5.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.pom (723 B at 1.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng-utils/2.12.4/surefire-testng-utils-2.12.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng-utils/2.12.4/surefire-testng-utils-2.12.4.pom (3.0 kB at 6.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.12.4/surefire-grouper-2.12.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.12.4/surefire-grouper-2.12.4.pom (2.5 kB at 5.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/testng/testng/5.7/testng-5.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/testng/testng/5.7/testng-5.7.pom (12 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.pom (680 B at 1.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-2/wagon-1.0-beta-2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-2/wagon-1.0-beta-2.pom (5.9 kB at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom (2.3 kB at 5.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng/2.12.4/surefire-testng-2.12.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.12.4/surefire-grouper-2.12.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng-utils/2.12.4/surefire-testng-utils-2.12.4.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng/2.12.4/surefire-testng-2.12.4.jar (34 kB at 66 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar (46 kB at 79 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng-utils/2.12.4/surefire-testng-utils-2.12.4.jar (24 kB at 14 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.12.4/surefire-grouper-2.12.4.jar (38 kB at 21 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar (79 kB at 38 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.jar (164 kB at 48 kB/s)
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@5577140b
+TestcaseId      IsRun   DateRun Result  Error   KeywordName     String
+PalindromeChecker_1     y                               isPalindrome    abcba
+PalindromeChecker_2     y                               isPalindrome    aabaacaabaa
+PalindromeChecker_3     y                               isPalindrome    abba
+PalindromeChecker_4     y                               isPalindrome    mom
+PalindromeChecker_5     y                               isPalindrome    dennis sinned
+PalindromeChecker_6     y                               isPalindrome    palindrome
+PalindromeChecker_7     y                               isPalindrome    racecars
+PalindromeChecker_8     y                               isPalindrome    wombat
+PalindromeChecker_9     y                               isPalindrome    namste
+PalindromeChecker_10    y                               isPalindrome    m@dam!
+PalindromeChecker_11    y                               isPalindrome    "A man, a plan, a canal, Panama"
+PalindromeChecker_12    y                               isPalindrome    RaCe cAr
+PalindromeChecker_13    y                               isPalindrome    A Toyota's a Toyota
+PalindromeChecker_14    y                               isPalindrome    abracadabra
+PalindromeChecker_15    y                               isPalindrome    ?nggne
+PalindromeChecker_16    y                               isPalindrome    "Madam, I'm Adam!"
+PalindromeChecker_17    y                               isPalindrome    "Madam, I am Adam!"
+PalindromeChecker_18    y                               isPalindrome    0_0 (: /-\ :) 0-0
+PalindromeChecker_19    y                               isPalindrome    eyeforofeye
+PalindromeChecker_20    y                               isPalindrome    1 & lol * eye eye * lol & 1
+PalindromeChecker_21    y                               isPalindrome    "A man, a plan, a canal. Panama"
+PalindromeChecker_22    y                               isPalindrome    a!4@6#n$9%d%9$n#9@4!a
+PalindromeChecker_23    y                               isPalindrome    ingirumimusnocteetconsumimurigni
+PalindromeChecker_24    y                               isPalindrome    sal?las
+PalindromeChecker_25    y                               isPalindrome    ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v
+PalindromeChecker_26    y                               isPalindrome    ^_v   ^_v   ^_v   ^_v   ^_v   ^_v   ^_
+PalindromeChecker_27    y                               isPalindrome    09g8p09g1+09pv
+PalindromeChecker_28    y                               isPalindrome    In girum imus nocte et consumimur igni
+PalindromeChecker_29    y                               isPalindrome    sal??las
+PalindromeChecker_30    y                               isPalindrome    Never odd or even
+PalindromeChecker_31    y                               isPalindrome    "A man, a plan, a canal; Panama!"
+PalindromeChecker_32    y                               isPalindrome    "Ce rep?re, Perec"
+Feb 20, 2020 6:42:20 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 21085
+Only local connections are allowed.
+Feb 20, 2020 6:42:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 308.208 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ TheInternet ---
+[INFO] Building jar: C:\Users\hieptc\Working\TheInternet\target\TheInternet-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-assembly-plugin:2.4:single (default) @ TheInternet ---
+[WARNING] Artifact: org.example:TheInternet:jar:1.0-SNAPSHOT references the same file as the assembly destination file. Moving it to a temporary location for inclusion.
+[INFO] Building jar: C:\Users\hieptc\Working\TheInternet\target\TheInternet-1.0-SNAPSHOT.jar
+[WARNING] Configuration options: 'appendAssemblyId' is set to false, and 'classifier' is missing.
+Instead of attaching the assembly file: C:\Users\hieptc\Working\TheInternet\target\TheInternet-1.0-SNAPSHOT.jar, it will become the file for main project artifact.
+NOTE: If multiple descriptors or descriptor-formats are provided for this project, the value of this file will be non-deterministic!
+[WARNING] Replacing pre-existing project main-artifact file: C:\Users\hieptc\Working\TheInternet\target\archive-tmp\TheInternet-1.0-SNAPSHOT.jar
+with assembly file: C:\Users\hieptc\Working\TheInternet\target\TheInternet-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10:04 min
+[INFO] Finished at: 2020-02-20T18:43:27+07:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\hieptc\Working\TheInternet>

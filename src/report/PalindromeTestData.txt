@@ -1,0 +1,33 @@
+TestcaseId	IsRun	DateRun	Result	Error	KeywordName	String
+PalindromeChecker_1	y	20-02-2020 19:02:01	Passed,	isPalindrome	abcba
+PalindromeChecker_2	y	20-02-2020 19:02:09	Passed,	isPalindrome	aabaacaabaa
+PalindromeChecker_3	y	20-02-2020 19:02:17	Passed,	isPalindrome	abba
+PalindromeChecker_4	y	20-02-2020 19:02:25	Passed,	isPalindrome	mom
+PalindromeChecker_5	y	20-02-2020 19:02:33	Passed,	isPalindrome	dennis sinned
+PalindromeChecker_6	y	20-02-2020 19:02:41	Failed		isPalindrome	palindrome
+PalindromeChecker_7	y	20-02-2020 19:02:49	Failed		isPalindrome	racecars
+PalindromeChecker_8	y	20-02-2020 19:02:57	Failed		isPalindrome	wombat
+PalindromeChecker_9	y	20-02-2020 19:03:05	Failed		isPalindrome	namste
+PalindromeChecker_10	y	20-02-2020 19:03:14	Failed		isPalindrome	m@dam!
+PalindromeChecker_11	y	20-02-2020 19:03:22	Failed		isPalindrome	"A man, a plan, a canal, Panama"
+PalindromeChecker_12	y	20-02-2020 19:03:30	Failed		isPalindrome	RaCe cAr
+PalindromeChecker_13	y	20-02-2020 19:03:38	Failed		isPalindrome	A Toyota's a Toyota
+PalindromeChecker_14	y	20-02-2020 19:03:46	Failed		isPalindrome	abracadabra
+PalindromeChecker_15	y	20-02-2020 19:03:54	Failed		isPalindrome	?nggne
+PalindromeChecker_16	y	20-02-2020 19:04:02	Failed		isPalindrome	"Madam, I'm Adam!"
+PalindromeChecker_17	y	20-02-2020 19:04:10	Failed		isPalindrome	"Madam, I am Adam!"
+PalindromeChecker_18	y	20-02-2020 19:04:18	Failed		isPalindrome	0_0 (: /-\ :) 0-0
+PalindromeChecker_19	y	20-02-2020 19:04:26	Passed,	isPalindrome	eyeforofeye
+PalindromeChecker_20	y	20-02-2020 19:04:34	Passed,	isPalindrome	1 & lol * eye eye * lol & 1
+PalindromeChecker_21	y	20-02-2020 19:04:42	Failed		isPalindrome	"A man, a plan, a canal. Panama"
+PalindromeChecker_22	y	20-02-2020 19:04:50	Failed		isPalindrome	a!4@6#n$9%d%9$n#9@4!a
+PalindromeChecker_23	y	20-02-2020 19:04:58	Passed,	isPalindrome	ingirumimusnocteetconsumimurigni
+PalindromeChecker_24	y	20-02-2020 19:05:06	Passed,	isPalindrome	sal?las
+PalindromeChecker_25	y	20-02-2020 19:05:14	Failed		isPalindrome	^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v # ^_v
+PalindromeChecker_26	y	20-02-2020 19:05:22	Failed		isPalindrome	^_v   ^_v   ^_v   ^_v   ^_v   ^_v   ^_
+PalindromeChecker_27	y	20-02-2020 19:05:30	Failed		isPalindrome	09g8p09g1+09pv
+PalindromeChecker_28	y	20-02-2020 19:05:38	Failed		isPalindrome	In girum imus nocte et consumimur igni
+PalindromeChecker_29	y	20-02-2020 19:05:46	Passed,	isPalindrome	sal??las
+PalindromeChecker_30	y	20-02-2020 19:05:54	Failed		isPalindrome	Never odd or even
+PalindromeChecker_31	y	20-02-2020 19:06:02	Failed		isPalindrome	"A man, a plan, a canal; Panama!"
+PalindromeChecker_32	y	20-02-2020 19:06:10	Failed		isPalindrome	"Ce rep?re, Perec"
